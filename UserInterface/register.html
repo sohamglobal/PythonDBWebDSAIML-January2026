@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <br><br>
+        <h1 class="display-4">Service Registration</h1>
+        <hr>
+        <form method="post" action="registeruser.py">
+            <table class="table">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="username" autocomplete="off" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" required class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Tell us about you</td>
+                    <td><textarea name="intro" rows="3" cols="30" class="form-control"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Services</td>
+                    <td>
+                        <input type="checkbox" name="serv1" value="pro"> Project
+                        <input type="checkbox" name="serv2" value="trn"> Course
+                        <input type="checkbox" name="serv3" value="int"> Internship
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>
+                        <select name="qual" class="form-control">
+                            <option value="be">BE/BTech</option>
+                            <option value="me">ME/MTech</option>
+                            <option value="mca">MCA</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Research Paper</td>
+                    <td><input type="file" name="pap" class="form-control"></td>
+                </tr>
+
+                <tr>
+                    <td>Completion date</td>
+                    <td><input type="date" name="cdt" class="form-control">
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="Submit" class="btn btn-outline-info"></td>
+                </tr>
+
+
+            </table>
+        </form>
+
+    </div>
+    
+</body>
+</html>

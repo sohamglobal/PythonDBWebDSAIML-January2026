@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SohamGlobal</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding:25px;
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+/* Two Panels */
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.panel{
+    background:white;
+    color:#333;
+    width:350px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Login form */
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#2a5298;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+/* Service cards */
+
+.services{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    width:180px;
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    color:white;
+    font-size:18px;
+    box-shadow:0px 5px 12px rgba(0,0,0,0.3);
+}
+
+.card i{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+/* Card Colors */
+
+.project{background:#ff6b6b;}
+.training{background:#6c5ce7;}
+.internship{background:#00b894;}
+.workshop{background:#fdcb6e;}
+.certification{background:#00cec9;}
+.interview{background:#e17055;}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+
+footer a{
+    color:white;
+    margin:0 10px;
+    font-size:22px;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+SohamGlobal
+</header>
+
+<div class="container">
+
+<div class="panel">
+<h3>Login</h3>
+
+<form>
+<input type="text" placeholder="Username">
+
+<input type="password" placeholder="Password">
+
+<button>Login</button>
+</form>
+
+</div>
+
+<div class="panel">
+<h3>About SohamGlobal</h3>
+
+<p>
+SohamGlobal is a technology training and consulting company focused on modern software development, cloud platforms, artificial intelligence, and enterprise solutions.
+</p>
+
+<p>
+We provide industry-ready training programs, real-world projects, internships, and certifications to help students and professionals build strong careers in technology.
+</p>
+
+</div>
+
+</div>
+
+<div class="services">
+
+<div class="card project">
+<i class="fa-solid fa-diagram-project"></i>
+<p>Projects</p>
+</div>
+
+<div class="card training">
+<i class="fa-solid fa-chalkboard-teacher"></i>
+<p>Training</p>
+</div>
+
+<div class="card internship">
+<i class="fa-solid fa-user-graduate"></i>
+<p>Internships</p>
+</div>
+
+<div class="card workshop">
+<i class="fa-solid fa-laptop-code"></i>
+<p>Workshops</p>
+</div>
+
+<div class="card certification">
+<i class="fa-solid fa-certificate"></i>
+<p>Certification</p>
+</div>
+
+<div class="card interview">
+<i class="fa-solid fa-people-group"></i>
+<p>Interviews</p>
+</div>
+
+</div>
+
+<footer>
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</footer>
+
+</body>
+</html>
