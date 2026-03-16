@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script>
+        function show()
+        {
+            nm=document.getElementById("ct").value;
+            document.getElementById("info").textContent="City "+nm;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <br><br>
+        <h1 class="display-5">Drop Down Data</h1>
+        <hr>
+        City 
+        <select name="ct" id="ct" class="form-control" onchange="show()">
+            <option value="Mumbai">Mumbai</option>
+            <option value="London">London</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Tokyo">Tokyo</option>
+        </select>
+        <br><br>
+        <span id="info"></span>
+
+    </div>
+    
+</body>
+</html>
