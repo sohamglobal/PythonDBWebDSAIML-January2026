@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Refresh Example</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="message"></h1>
+
+    <script>
+        // Check if page was already loaded before
+        let visitCount = localStorage.getItem("visitCount");
+
+        if (!visitCount) {
+            visitCount = 1;
+        } else {
+            visitCount = parseInt(visitCount) + 1;
+        }
+
+        localStorage.setItem("visitCount", visitCount);
+
+        // Change content based on visit count
+        if (visitCount === 1) {
+            document.getElementById("message").innerText = "Welcome! Page will refresh in 3 seconds...";
+        } else {
+            document.getElementById("message").innerText = "Page refreshed! Visit count: " + visitCount;
+        }
+
+        // Refresh page after 3 seconds
+        setTimeout(function() {
+            location.reload();
+        }, 3000);
+    </script>
+
+</body>
+</html>
