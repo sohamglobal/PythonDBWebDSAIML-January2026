@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review Analysis System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f3d2e, #145a41, #1f7a5c);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        header p {
+            color: #d4f5e9;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Fixed 4 per row */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Tablet */
+        @media (max-width: 992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr); /* 2 per row */
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr); /* 1 per row */
+            }
+        }
+
+        .card {
+            background: white;
+            color: #333;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card i {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            margin: 8px 0;
+        }
+
+        .card p {
+            font-size: 14px;
+        }
+
+        /* Colors */
+        .login { background: #e3f2fd; }
+        .register { background: #fce4ec; }
+        .review { background: #e8f5e9; }
+        .search { background: #fff3e0; }
+        .summary { background: #ede7f6; }
+        .report { background: #fbe9e7; }
+        .analytics { background: #e0f7fa; }
+        .dashboard { background: #f1f8e9; }
+        .feedback { background: #fffde7; }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: #d4f5e9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Review Analysis System</h1>
+    <p>AI-Powered Customer Feedback Insights Platform</p>
+</header>
+
+<div class="container">
+
+    <div class="card login">
+        <i class="fas fa-sign-in-alt"></i>
+        <h3>Login</h3>
+        <p><a href="/login/" style="text-decoration: none;">Access your account</a></p>
+    </div>
+
+    <div class="card register">
+        <i class="fas fa-user-plus"></i>
+        <h3>Register</h3>
+        <p><a href="/register/" style="text-decoration: none;">Create account</a></p>
+    </div>
+
+    <div class="card review">
+        <i class="fas fa-pen"></i>
+        <h3>New Review</h3>
+        <p><a href="/newrev/" style="text-decoration: none;">Add feedback</a></p>
+    </div>
+
+    <div class="card search">
+        <i class="fas fa-search"></i>
+        <h3>Search</h3>
+        <p>Find reviews</p>
+    </div>
+
+    <div class="card summary">
+        <i class="fas fa-chart-pie"></i>
+        <h3>Summary</h3>
+        <p>Quick insights</p>
+    </div>
+
+    <div class="card report">
+        <i class="fas fa-file-alt"></i>
+        <h3>Reports</h3>
+        <p>Detailed output</p>
+    </div>
+
+    <div class="card analytics">
+        <i class="fas fa-chart-line"></i>
+        <h3>Analytics</h3>
+        <p>Advanced analysis</p>
+    </div>
+
+    <div class="card dashboard">
+        <i class="fas fa-tachometer-alt"></i>
+        <h3>Dashboard</h3>
+        <p>Track metrics</p>
+    </div>
+
+   
+
+</div>
+
+<footer>
+    <p><strong>SohamGlobal</strong> – Microsoft Partner | AI | Data Analytics | Training & Consulting</p>
+    <p>Building intelligent solutions for the future.</p>
+</footer>
+
+</body>
+</html>

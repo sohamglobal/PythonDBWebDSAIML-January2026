@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f3d2e, #145a41, #1f7a5c);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 34px;
+        }
+
+        header p {
+            color: #d4f5e9;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .status-card {
+            background: white;
+            color: #333;
+            border-radius: 15px;
+            padding: 30px;
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+        }
+
+        .status-icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        .success {
+            color: #2e7d32;
+        }
+
+        .error {
+            color: #c62828;
+        }
+
+        .status-text {
+            font-size: 20px;
+            margin: 15px 0;
+            font-weight: 600;
+        }
+
+        .actions {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            color: white;
+            background: #1f7a5c;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #145a41;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: #d4f5e9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Registration Status</h1>
+    <p>Result of your account creation request</p>
+</header>
+
+<div class="container">
+    <div class="status-card">
+
+        <!-- You can control icon via backend if needed -->
+        {% if "success" in status|lower %}
+            <div class="status-icon success">
+                <i class="fas fa-check-circle"></i>
+            </div>
+        {% else %}
+            <div class="status-icon error">
+                <i class="fas fa-times-circle"></i>
+            </div>
+        {% endif %}
+
+        <div class="status-text">
+            {{status}}
+        </div>
+
+        <div class="actions">
+            <a href="/reviews/" class="btn"><i class="fas fa-home"></i> Home</a>
+            <a href="/register/" class="btn"><i class="fas fa-user-plus"></i> Try Again</a>
+            <a href="/login/" class="btn"><i class="fas fa-sign-in-alt"></i> Login</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p><strong>SohamGlobal</strong> – Microsoft Partner | AI | Data Analytics | Training & Consulting</p>
+    <p>Delivering intelligent solutions for modern applications.</p>
+</footer>
+
+</body>
+</html>
