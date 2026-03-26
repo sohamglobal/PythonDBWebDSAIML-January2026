@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from pymongo import MongoClient
+from datetime import datetime
 
 def homepage(request):
     return render(request,"index.html")
@@ -42,6 +43,34 @@ def addreview(request):
         # receive the data
         # put it in a dictionary
         # insert in mongodb collection
+        dic={}
+        dic['customername']=request.POST.get("customer_name")
+        dic['category']=request.POST.get("category")
+        dic['company']=request.POST.get("company")
+        dic['model']=request.POST.get("model")
+        dic['price']=float(request.POST.get("price"))
+        dic['platform']=request.POST.get("platform")
+        dic['invoice']=request.POST.get("invoice")
+        dic['reviewdate']=datetime.now()
+        dic['reviewtext']=request.POST.get("review_text")
+        client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
+        db=client["ecomprojectdb"]
+        coll=db["reviews"]
+        try:
+            coll.insert_one(dic)
+            sts="success"
+        except:
+            sts="failed"
 
     return render(request,"addrevstatus.html",{'status':sts})
+
+
+def genreport(request):
+    client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
+    db=client["ecomprojectdb"]
+    coll=db["reviews"]
+    for doc in coll.find():
+        print(doc)
+
+    return render(request,"showreport.html")
     
