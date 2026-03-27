@@ -69,8 +69,7 @@ def genreport(request):
     client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
     db=client["ecomprojectdb"]
     coll=db["reviews"]
-    for doc in coll.find():
-        print(doc)
+    data=list(coll.find())
 
-    return render(request,"showreport.html")
+    return render(request,"showreport.html",{'reviews':data})
     
