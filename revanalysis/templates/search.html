@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Reviews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f3d2e, #145a41, #1f7a5c);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 34px;
+        }
+
+        header p {
+            color: #d4f5e9;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .form-card {
+            background: white;
+            color: #333;
+            border-radius: 15px;
+            padding: 25px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+        }
+
+        .form-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #1f7a5c;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background: #1f7a5c;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #145a41;
+        }
+
+        .nav-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            margin: 5px;
+            padding: 8px 12px;
+            background: #1f7a5c;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #145a41;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: #d4f5e9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Search Reviews</h1>
+    <p>Find customer feedback quickly and efficiently</p>
+</header>
+
+<div class="container">
+    <div class="form-card">
+
+        <h2><i class="fas fa-search"></i> Search</h2>
+
+        <form action="/searchdocs/" method="post">
+            {% csrf_token %}
+
+            <div class="form-group">
+                <label><i class="fas fa-filter"></i> Search By</label>
+                <select name="field" required>
+                    <option value="">Select Option</option>
+                    <option value="category">Category</option>
+                    <option value="company">Company</option>
+                    <option value="platform">Platform</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label><i class="fas fa-keyboard"></i> Enter Value</label>
+                <input type="text" name="value" placeholder="Enter search value..." required>
+            </div>
+
+            <button type="submit" class="btn">
+                <i class="fas fa-search"></i> Search
+            </button>
+
+        </form>
+
+        <div class="nav-links">
+            <a href="/reviews/"><i class="fas fa-home"></i> Home</a>
+            <a href="/report/"><i class="fas fa-table"></i> View Reports</a>
+            <a href="/newrev/"><i class="fas fa-pen"></i> Add Review</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p><strong>SohamGlobal</strong> – Microsoft Partner | AI | Data Analytics | Training & Consulting</p>
+    <p>Smart search powered by intelligent data systems.</p>
+</footer>
+
+</body>
+</html>

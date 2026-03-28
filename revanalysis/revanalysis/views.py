@@ -72,4 +72,20 @@ def genreport(request):
     data=list(coll.find())
 
     return render(request,"showreport.html",{'reviews':data})
-    
+
+def search(request):
+    return render(request,"search.html")
+
+def searchdocs(request):
+    if request.method=="POST":
+        f=request.POST.get("field")
+        v=request.POST.get("value")
+        dic={}
+        dic[f]=v
+        print(dic)
+        client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
+        db=client["ecomprojectdb"]
+        coll=db["reviews"]
+        data=list(coll.find(dic))
+        
+    return render(request,"searchresult.html",{"reviews":data,"field":f,"value":v})

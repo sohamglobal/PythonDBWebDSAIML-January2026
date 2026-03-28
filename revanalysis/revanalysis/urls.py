@@ -27,4 +27,6 @@ urlpatterns = [
     path('adduser/',views.adduser),
     path('addreview/',views.addreview),
     path('report/',views.genreport),
+    path('search/',views.search),
+    path('searchdocs/',views.searchdocs),
 ]
