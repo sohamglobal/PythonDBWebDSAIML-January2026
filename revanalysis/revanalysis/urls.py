@@ -29,4 +29,8 @@ urlpatterns = [
     path('report/',views.genreport),
     path('search/',views.search),
     path('searchdocs/',views.searchdocs),
+    path('authenticate/',views.authenticate),
+    path('adminhome/',views.adminhome),
+    path('failure/',views.failure),
+    
 ]

@@ -1,6 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from pymongo import MongoClient
 from datetime import datetime
+
+
 
 def homepage(request):
     return render(request,"index.html")
@@ -89,3 +91,29 @@ def searchdocs(request):
         data=list(coll.find(dic))
         
     return render(request,"searchresult.html",{"reviews":data,"field":f,"value":v})
+
+def authenticate(request):
+    if request.method=="POST":
+        uid=request.POST.get("userid")
+        ps=request.POST.get("password")
+        client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
+        db=client["ecomprojectdb"]
+        coll=db["prousers"]
+        user=coll.find_one({"userid":uid})
+        print(user)
+        if user:
+            if user["password"]==ps:
+                return redirect("/adminhome/")
+            else:
+                return redirect("/failure/")
+        else:
+            return redirect("/failure/")
+    return redirect("/reviews/")
+
+
+def adminhome(request):
+    return render(request,"adminhome.html")
+
+def failure(request):
+    return render(request,"failure.html")
+    
