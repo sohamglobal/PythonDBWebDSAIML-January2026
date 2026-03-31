@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from pymongo import MongoClient
 from datetime import datetime
-
+from .services import ReviewServices
 
 
 def homepage(request):
@@ -82,13 +82,9 @@ def searchdocs(request):
     if request.method=="POST":
         f=request.POST.get("field")
         v=request.POST.get("value")
-        dic={}
-        dic[f]=v
-        print(dic)
-        client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
-        db=client["ecomprojectdb"]
-        coll=db["reviews"]
-        data=list(coll.find(dic))
+        
+        obj=ReviewServices()
+        data=obj.searchdocuments(f,v)
         
     return render(request,"searchresult.html",{"reviews":data,"field":f,"value":v})
 
@@ -96,11 +92,10 @@ def authenticate(request):
     if request.method=="POST":
         uid=request.POST.get("userid")
         ps=request.POST.get("password")
-        client=MongoClient("mongodb+srv://praffull:mongodb913@sharayucluster.fib907c.mongodb.net/?appName=sharayucluster")
-        db=client["ecomprojectdb"]
-        coll=db["prousers"]
-        user=coll.find_one({"userid":uid})
-        print(user)
+        # create object of the services class
+        obj=ReviewServices()
+        user=obj.checkuserstatus(uid)
+
         if user:
             if user["password"]==ps:
                 return redirect("/adminhome/")
