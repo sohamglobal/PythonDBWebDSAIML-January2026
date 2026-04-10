@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Film Explorer</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #00b894);
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .search-box {
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    input {
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 60%;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 12px 18px;
+        border: none;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #00c9ff, #92fe9d);
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    .films-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #00ffcc;
+    }
+
+    .info {
+        font-size: 14px;
+        margin: 4px 0;
+        opacity: 0.9;
+    }
+
+    .badge {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border-radius: 8px;
+        background: rgba(0,255,200,0.2);
+        font-size: 12px;
+    }
+
+    .no-data {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>🎬 Film Explorer</header>
+
+<div class="search-box">
+    <input type="text" id="genreInput" placeholder="Enter genre (e.g. romance)">
+    <button onclick="fetchFilms()">Search</button>
+</div>
+
+<div id="filmsContainer" class="films-container"></div>
+
+<script>
+function fetchFilms() {
+    let genre = document.getElementById("genreInput").value;
+
+    if (!genre) {
+        alert("Please enter genre");
+        return;
+    }
+
+    fetch(`http://127.0.0.1:5000/films/genre/${genre}`)
+    .then(res => res.json())
+    .then(data => displayFilms(data))
+    .catch(err => {
+        document.getElementById("filmsContainer").innerHTML =
+            "<div class='no-data'>⚠️ Error fetching data</div>";
+    });
+}
+
+function displayFilms(films) {
+    let container = document.getElementById("filmsContainer");
+    container.innerHTML = "";
+
+    if (!films || films.length === 0) {
+        container.innerHTML = "<div class='no-data'>No films found</div>";
+        return;
+    }
+
+    films.forEach(f => {
+        let card = `
+        <div class="card">
+            <div class="title">${f.filmnm || "Unknown Title"}</div>
+            <div class="info">🎭 Actor: ${f.actor || "-"}</div>
+            <div class="info">💃 Actress: ${f.actress || "-"}</div>
+            <div class="info">🎬 Director: ${f.director || "-"}</div>
+            <div class="info">🎵 Music: ${f.music || "-"}</div>
+            <div class="info">📅 Year: ${f.releaseyr || "-"}</div>
+            <div class="info">💰 Budget: ${f.budgetmn || "-"}</div>
+            <div class="info">📈 Collection: ${f.collectionmn || "-"}</div>
+            <div class="badge">${f.category}</div>
+        </div>
+        `;
+        container.innerHTML += card;
+    });
+}
+</script>
+
+</body>
+</html>
