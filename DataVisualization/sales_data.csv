@@ -1,0 +1,1001 @@
+Product,Brand,PayMode,Amount
+Speaker,Bose,UPI,14500
+Camera,Nikon,UPI,114500
+Laptop,Asus,UPI,73500
+Smartwatch,Apple,UPI,50500
+Smartwatch,boAt,COD,33500
+Washing Machine,Whirlpool,EMI,37500
+Headphones,Apple,UPI,15500
+TV,Sony,Card,103500
+Air Conditioner,Carrier,UPI,57500
+Camera,Leica,UPI,196000
+Smartwatch,Fitbit,Card,36500
+Air Conditioner,Hitachi,COD,36500
+Tablet,OnePlus,Card,33000
+Refrigerator,Whirlpool,Card,112500
+Laptop,Acer,Card,91500
+Laptop,Acer,Net Banking,65000
+Laptop,Dell,EMI,128000
+Camera,Olympus,UPI,198500
+Tablet,Honor,COD,69000
+Printer,Canon,UPI,3500
+Camera,Sony,Card,199500
+Smartwatch,Apple,COD,10500
+Air Conditioner,Blue Star,Net Banking,79500
+Smartwatch,Amazfit,EMI,24500
+Speaker,JBL,COD,6500
+Mobile,Samsung,UPI,26000
+TV,Mi,EMI,106000
+Laptop,Samsung,COD,87000
+Washing Machine,Panasonic,COD,29500
+Headphones,boAt,Wallet,16000
+TV,TCL,Card,83500
+Laptop,Lenovo,Wallet,122500
+Air Conditioner,LG,UPI,60000
+TV,Samsung,Net Banking,39500
+Printer,Lexmark,Wallet,17500
+Tablet,Xiaomi,Card,10500
+Mobile,Xiaomi,UPI,38500
+Tablet,Samsung,UPI,44500
+Tablet,Xiaomi,COD,66000
+Laptop,Asus,Net Banking,127000
+Refrigerator,Godrej,COD,24500
+Headphones,Sennheiser,EMI,17500
+Smartwatch,Amazfit,UPI,10500
+Washing Machine,LG,COD,60000
+Smartwatch,Fitbit,Net Banking,28500
+Camera,GoPro,COD,190500
+Air Conditioner,Blue Star,Cheque,72500
+Laptop,Dell,UPI,101500
+Smartwatch,Fossil,Card,5500
+Laptop,Apple,UPI,196000
+Printer,Ricoh,Card,39000
+Air Conditioner,Hitachi,Net Banking,70500
+Tablet,Huawei,Card,27000
+Washing Machine,Godrej,Card,78000
+Smartwatch,Fossil,UPI,3500
+Air Conditioner,Blue Star,EMI,52000
+Headphones,Bose,Net Banking,32500
+Speaker,Bose,EMI,5000
+TV,Hisense,Cheque,49500
+Tablet,Xiaomi,UPI,88000
+Speaker,Sony,Cheque,26500
+Mobile,Vivo,Net Banking,69000
+TV,LG,COD,244500
+Camera,Sony,Card,62000
+Printer,Samsung,COD,23500
+TV,Panasonic,Card,23500
+Printer,Samsung,UPI,9000
+Headphones,Jabra,UPI,15500
+Tablet,OnePlus,UPI,13500
+Washing Machine,LG,UPI,78000
+Air Conditioner,LG,UPI,69500
+Speaker,Ultimate Ears,COD,6500
+Printer,Xerox,Card,4000
+Washing Machine,Godrej,COD,58500
+Laptop,MSI,UPI,195000
+Camera,Olympus,COD,115500
+Refrigerator,Voltas,UPI,55000
+Camera,Panasonic,UPI,42500
+Smartwatch,Fitbit,UPI,4000
+Headphones,boAt,Card,23500
+Smartwatch,Apple,UPI,44000
+Printer,Ricoh,COD,16500
+Washing Machine,Panasonic,UPI,63500
+Air Conditioner,Hitachi,Card,49000
+Air Conditioner,Samsung,UPI,80000
+Washing Machine,IFB,UPI,51500
+Laptop,Lenovo,Card,115000
+Air Conditioner,Haier,UPI,31000
+Headphones,Sony,UPI,26500
+Refrigerator,LG,Card,118000
+Tablet,Realme,UPI,59000
+Printer,Ricoh,Card,21500
+Washing Machine,Godrej,UPI,30000
+Smartwatch,Apple,EMI,36500
+Printer,Lexmark,Card,30500
+Refrigerator,Haier,UPI,87000
+Speaker,Harman,UPI,12000
+Headphones,Sony,Wallet,10500
+Refrigerator,Voltas,UPI,19000
+Smartwatch,Noise,UPI,46000
+Camera,Fujifilm,Card,11500
+Smartwatch,Amazfit,Net Banking,47500
+Headphones,JBL,Card,32500
+Washing Machine,Haier,EMI,42500
+Mobile,Nokia,UPI,68000
+Laptop,Dell,Net Banking,121000
+Laptop,MSI,Card,35500
+TV,TCL,UPI,75000
+Air Conditioner,LG,UPI,75500
+Camera,Nikon,Cheque,90500
+Camera,Leica,UPI,184500
+Tablet,Honor,Card,51000
+Mobile,Nokia,UPI,119000
+Camera,Panasonic,Card,168000
+Refrigerator,Voltas,UPI,76000
+Washing Machine,LG,Card,42500
+Air Conditioner,Daikin,Card,28000
+Laptop,Samsung,Wallet,180500
+Washing Machine,Panasonic,Wallet,33000
+Tablet,OnePlus,Wallet,67500
+TV,Mi,Net Banking,197000
+Washing Machine,IFB,COD,72500
+Headphones,Jabra,EMI,26500
+Printer,Ricoh,COD,15500
+Headphones,Sony,UPI,21000
+Laptop,HP,COD,56500
+Laptop,Apple,UPI,98500
+Refrigerator,Bosch,UPI,70000
+Tablet,Xiaomi,Card,30000
+Mobile,Realme,COD,37500
+Tablet,Huawei,Card,15500
+Laptop,Acer,Net Banking,91500
+Refrigerator,Samsung,EMI,108500
+Printer,Samsung,Net Banking,28000
+Smartwatch,Samsung,COD,17000
+Speaker,Sony,EMI,11000
+Tablet,Samsung,Net Banking,10500
+Mobile,Realme,Card,34500
+Laptop,Apple,COD,93500
+Mobile,Vivo,EMI,21000
+Refrigerator,Samsung,COD,94500
+Printer,Brother,UPI,27500
+Camera,GoPro,UPI,139000
+Headphones,Jabra,Wallet,500
+Printer,HP,EMI,26500
+Air Conditioner,Daikin,Net Banking,62000
+Printer,Canon,UPI,3500
+Headphones,Sennheiser,Card,10000
+Laptop,Dell,Card,158500
+Washing Machine,LG,Net Banking,60500
+Refrigerator,Bosch,Net Banking,43000
+Washing Machine,Whirlpool,Card,70000
+Headphones,Sony,Net Banking,8000
+TV,OnePlus,Card,199000
+Washing Machine,Godrej,Card,26500
+Smartwatch,Noise,Card,53000
+Camera,Canon,Card,174000
+Refrigerator,Samsung,Wallet,93500
+Laptop,MSI,Card,50500
+Refrigerator,Haier,UPI,53500
+Air Conditioner,Voltas,COD,85000
+Tablet,Apple,EMI,26500
+Camera,Nikon,UPI,100500
+Laptop,Apple,Net Banking,50000
+Headphones,Apple,EMI,34000
+Mobile,Vivo,EMI,105500
+Speaker,Bose,UPI,11000
+Speaker,Harman,Card,4500
+Speaker,Philips,EMI,17500
+Tablet,Huawei,Card,60000
+Printer,Xerox,UPI,32000
+Air Conditioner,Daikin,EMI,37500
+Headphones,Sony,UPI,13000
+TV,Samsung,Card,114500
+Laptop,HP,UPI,190000
+TV,Samsung,UPI,17000
+Tablet,OnePlus,UPI,42500
+Laptop,Lenovo,EMI,172000
+Washing Machine,LG,EMI,57000
+Mobile,Apple,UPI,55000
+TV,Hisense,UPI,15500
+Washing Machine,Samsung,Wallet,37500
+Washing Machine,LG,EMI,79000
+Smartwatch,Samsung,Wallet,38000
+Washing Machine,Samsung,EMI,26000
+Tablet,Realme,Card,22500
+Camera,Olympus,UPI,47500
+Refrigerator,Samsung,Wallet,63500
+Headphones,Jabra,UPI,20500
+Washing Machine,Whirlpool,Net Banking,16000
+Laptop,HP,UPI,153000
+Headphones,Jabra,Cheque,5000
+Mobile,OnePlus,EMI,75000
+Smartwatch,Apple,Card,16500
+Speaker,Philips,Net Banking,18000
+TV,Hisense,Cheque,187000
+Mobile,Xiaomi,UPI,34000
+Laptop,Asus,Net Banking,154000
+Tablet,Lenovo,Net Banking,30500
+TV,Hisense,UPI,99500
+Printer,Brother,COD,27500
+Tablet,Huawei,UPI,25500
+Laptop,HP,Wallet,60500
+Speaker,boAt,UPI,22500
+Refrigerator,Whirlpool,UPI,38000
+Washing Machine,Bosch,COD,41000
+Headphones,Skullcandy,Wallet,10500
+Camera,Sony,EMI,28500
+Speaker,Philips,Card,11000
+Speaker,Philips,Net Banking,14000
+Washing Machine,Samsung,Net Banking,15500
+Camera,Canon,UPI,186500
+Speaker,Philips,UPI,11000
+Laptop,Asus,Card,82000
+Camera,GoPro,Wallet,195500
+Headphones,Apple,Card,13000
+Camera,Nikon,UPI,64500
+Washing Machine,Bosch,UPI,56000
+Laptop,MSI,Card,99000
+Printer,Canon,COD,8000
+Headphones,Jabra,COD,24500
+Speaker,Sony,UPI,16500
+Speaker,Ultimate Ears,UPI,19000
+Mobile,Realme,UPI,64500
+TV,OnePlus,UPI,100500
+Speaker,JBL,EMI,24000
+Air Conditioner,Hitachi,UPI,74500
+Laptop,Acer,Net Banking,180000
+Washing Machine,Whirlpool,EMI,27500
+Laptop,HP,Card,111000
+Washing Machine,Bosch,EMI,32500
+Refrigerator,Samsung,Card,38500
+Smartwatch,boAt,COD,35500
+Washing Machine,LG,UPI,47500
+Refrigerator,Whirlpool,UPI,29000
+Refrigerator,Bosch,UPI,97500
+Air Conditioner,Carrier,UPI,67000
+Camera,Sony,UPI,103000
+Camera,Sony,UPI,175000
+Laptop,Asus,UPI,87000
+Refrigerator,Samsung,UPI,58000
+Printer,HP,UPI,34500
+TV,OnePlus,UPI,54500
+Refrigerator,Samsung,UPI,68500
+Laptop,Lenovo,Card,30500
+TV,TCL,UPI,186000
+Printer,HP,Card,7000
+Tablet,Xiaomi,Card,54000
+Air Conditioner,Haier,Wallet,53000
+Laptop,Acer,UPI,177000
+Tablet,Xiaomi,COD,38000
+Smartwatch,boAt,UPI,10500
+Laptop,MSI,Net Banking,161500
+Smartwatch,boAt,UPI,54000
+TV,Hisense,Card,115000
+Laptop,Lenovo,Card,34000
+Tablet,Realme,Card,59000
+Camera,Panasonic,Card,166500
+Tablet,Xiaomi,COD,38000
+Tablet,Huawei,Card,58500
+Washing Machine,LG,Net Banking,61000
+Camera,GoPro,Card,10500
+Refrigerator,Voltas,Card,69000
+Washing Machine,LG,Wallet,70000
+Refrigerator,Panasonic,EMI,40000
+Refrigerator,LG,COD,115000
+Camera,Olympus,Net Banking,128500
+Refrigerator,Voltas,Card,28000
+Printer,Samsung,Card,10500
+Laptop,MSI,Cheque,31500
+Washing Machine,IFB,UPI,18500
+Washing Machine,LG,UPI,29500
+Air Conditioner,Haier,EMI,39000
+Printer,Epson,Net Banking,24500
+Speaker,Philips,COD,15500
+Refrigerator,Samsung,UPI,111000
+TV,Sony,COD,172500
+Speaker,Bose,COD,4500
+Camera,Leica,UPI,9500
+Refrigerator,Haier,Card,58000
+Smartwatch,Amazfit,Card,3500
+Speaker,Harman,UPI,4000
+Washing Machine,Bosch,Net Banking,49000
+Printer,Ricoh,Net Banking,15000
+Mobile,Realme,EMI,108000
+Mobile,Samsung,Net Banking,15000
+Mobile,Samsung,Card,70000
+Tablet,Realme,Card,89000
+Tablet,Xiaomi,Card,77500
+Speaker,Harman,UPI,25000
+Refrigerator,Samsung,Card,61000
+Refrigerator,Haier,UPI,116000
+Refrigerator,Haier,UPI,93000
+Mobile,Samsung,Card,118500
+Refrigerator,Samsung,Net Banking,82000
+Smartwatch,Garmin,Wallet,25500
+Headphones,Jabra,Card,1500
+Refrigerator,Bosch,UPI,112000
+Smartwatch,boAt,Card,54500
+Camera,GoPro,UPI,180500
+Headphones,boAt,Net Banking,29000
+Mobile,Nokia,Net Banking,74000
+Tablet,Xiaomi,UPI,26500
+TV,TCL,COD,125500
+Headphones,Bose,Card,15500
+Mobile,Vivo,Cheque,60000
+Air Conditioner,LG,Card,85000
+Laptop,Apple,Net Banking,96000
+Camera,Sony,Card,142000
+Smartwatch,Garmin,Cheque,32000
+Smartwatch,Amazfit,COD,48000
+Camera,Nikon,UPI,50000
+Washing Machine,Whirlpool,UPI,14500
+Refrigerator,Whirlpool,UPI,112000
+Printer,Lexmark,COD,15000
+Smartwatch,Garmin,UPI,17000
+Camera,Sony,UPI,32500
+Camera,Fujifilm,COD,29500
+Speaker,Marshall,UPI,15000
+Air Conditioner,Carrier,COD,46000
+Speaker,JBL,Net Banking,15000
+Air Conditioner,Hitachi,UPI,63000
+Washing Machine,Bosch,Card,16500
+Air Conditioner,Samsung,Net Banking,41500
+Printer,Epson,COD,8000
+Headphones,Bose,UPI,3000
+Tablet,Huawei,Card,24000
+TV,Panasonic,Net Banking,176000
+Speaker,Sony,COD,21500
+Mobile,Samsung,UPI,111000
+Washing Machine,LG,EMI,17500
+TV,Hisense,COD,98500
+Speaker,Bose,COD,11500
+TV,Panasonic,Net Banking,28000
+Speaker,Harman,Cheque,24000
+Tablet,OnePlus,UPI,49500
+Tablet,Lenovo,EMI,82500
+TV,Mi,UPI,225000
+TV,Mi,COD,27500
+Laptop,MSI,UPI,114500
+Headphones,Bose,COD,12000
+Speaker,Marshall,Card,11500
+Headphones,Jabra,Net Banking,30000
+Tablet,Apple,UPI,34500
+Refrigerator,Haier,COD,35000
+Speaker,Bose,Card,21500
+Washing Machine,Bosch,Card,52000
+TV,TCL,Card,148500
+Headphones,Apple,UPI,24000
+Refrigerator,Panasonic,Card,80000
+TV,Hisense,UPI,41500
+Air Conditioner,Hitachi,UPI,65000
+Printer,Ricoh,UPI,19000
+Refrigerator,Godrej,COD,15500
+Laptop,Samsung,Card,189500
+Air Conditioner,Carrier,UPI,74500
+TV,Panasonic,UPI,123000
+TV,Hisense,Card,33000
+Mobile,Samsung,Card,11000
+Speaker,Sony,COD,21000
+Tablet,Realme,Wallet,69500
+Camera,Olympus,Card,75000
+Headphones,JBL,Net Banking,9500
+TV,Sony,EMI,125000
+Refrigerator,Samsung,UPI,29000
+Washing Machine,Whirlpool,EMI,57500
+Speaker,JBL,Net Banking,24000
+Refrigerator,Godrej,UPI,115500
+Laptop,Samsung,COD,108500
+Washing Machine,IFB,Card,67500
+Tablet,Apple,Card,45000
+Tablet,Realme,EMI,82000
+Mobile,Xiaomi,COD,85500
+Laptop,Apple,Net Banking,75500
+Air Conditioner,Hitachi,Card,53000
+Mobile,Xiaomi,UPI,97500
+Refrigerator,Panasonic,UPI,106500
+Printer,HP,Card,27000
+Smartwatch,Apple,Card,51500
+Printer,Brother,Net Banking,26500
+Washing Machine,Godrej,COD,50500
+Mobile,Nokia,COD,34000
+TV,Samsung,UPI,179000
+Mobile,Nokia,COD,64500
+Camera,GoPro,UPI,60000
+Printer,Xerox,EMI,18500
+Tablet,Honor,UPI,49500
+Washing Machine,Whirlpool,EMI,39500
+Laptop,Asus,Card,145500
+Washing Machine,Samsung,COD,48000
+TV,OnePlus,UPI,239500
+Washing Machine,Samsung,UPI,45000
+Laptop,Lenovo,Net Banking,160500
+Printer,Lexmark,COD,26500
+Headphones,Sony,Wallet,9500
+Tablet,Honor,COD,86500
+Headphones,Sennheiser,EMI,31000
+Washing Machine,Panasonic,Net Banking,43500
+Headphones,Skullcandy,EMI,18000
+Washing Machine,Whirlpool,Net Banking,77500
+Mobile,Apple,Net Banking,92000
+Tablet,Honor,EMI,18000
+Laptop,Samsung,UPI,68000
+Tablet,OnePlus,COD,60500
+Mobile,Nokia,Card,91500
+Printer,Brother,UPI,35000
+Printer,Canon,EMI,17000
+Refrigerator,Samsung,Card,27000
+Speaker,JBL,Card,25500
+Laptop,MSI,Cheque,195000
+Mobile,Realme,COD,18000
+Air Conditioner,Haier,EMI,70000
+Air Conditioner,Haier,UPI,30500
+Speaker,Ultimate Ears,UPI,21500
+Headphones,JBL,Card,21000
+Headphones,Jabra,Net Banking,25500
+Air Conditioner,Voltas,Card,73500
+Refrigerator,LG,COD,103500
+Printer,Epson,Card,16000
+Air Conditioner,Haier,UPI,85500
+Mobile,Realme,UPI,25500
+Laptop,Samsung,UPI,72000
+Air Conditioner,LG,UPI,38000
+Mobile,Xiaomi,Card,42500
+Printer,Xerox,Card,4000
+Headphones,Jabra,Wallet,18000
+Smartwatch,Fossil,UPI,23500
+Refrigerator,Panasonic,COD,84000
+Refrigerator,Voltas,Wallet,51500
+Tablet,Lenovo,Card,27500
+Laptop,Dell,Card,134500
+Speaker,Ultimate Ears,Wallet,23000
+Mobile,Xiaomi,Card,118000
+Printer,Xerox,UPI,35000
+Laptop,Asus,UPI,34000
+Camera,Fujifilm,COD,30000
+Laptop,MSI,COD,162500
+Laptop,HP,Net Banking,171000
+Printer,Lexmark,UPI,19500
+Air Conditioner,Daikin,UPI,30500
+Tablet,Realme,Net Banking,16000
+Refrigerator,Godrej,EMI,17500
+Printer,Ricoh,Net Banking,33500
+Printer,HP,Card,22500
+Speaker,Bose,EMI,13000
+Speaker,Harman,Wallet,19000
+Laptop,Apple,EMI,112500
+Headphones,JBL,Net Banking,17000
+Headphones,Sennheiser,UPI,500
+TV,Sony,UPI,55500
+Speaker,Philips,Cheque,13500
+Washing Machine,Panasonic,UPI,59500
+Printer,Xerox,Card,21000
+Tablet,Xiaomi,Net Banking,63000
+Smartwatch,Fitbit,Net Banking,25500
+Washing Machine,Bosch,Card,71500
+Smartwatch,Fitbit,Card,34500
+Headphones,JBL,EMI,15500
+Laptop,MSI,Net Banking,56000
+Camera,GoPro,Card,60000
+TV,Samsung,Card,235500
+Headphones,Bose,Card,33500
+Printer,Brother,Card,34500
+Tablet,Huawei,Net Banking,80000
+Camera,Nikon,UPI,64000
+Smartwatch,Noise,EMI,24500
+Air Conditioner,Daikin,UPI,25500
+Laptop,Lenovo,EMI,41500
+TV,Mi,COD,60500
+Laptop,Dell,UPI,170500
+Camera,Canon,Card,168000
+Washing Machine,LG,Net Banking,41000
+Mobile,Nokia,EMI,93500
+Printer,HP,Card,5000
+Washing Machine,Panasonic,Wallet,30500
+Mobile,Nokia,UPI,102500
+Tablet,OnePlus,Card,30000
+Smartwatch,Garmin,UPI,35000
+TV,Mi,COD,192500
+Laptop,Lenovo,Card,70500
+Refrigerator,LG,UPI,62000
+TV,LG,Net Banking,15000
+Laptop,Asus,Net Banking,46000
+Refrigerator,Haier,Net Banking,110500
+Camera,Nikon,Net Banking,101000
+Air Conditioner,Hitachi,UPI,95000
+Speaker,Marshall,COD,25500
+Air Conditioner,Daikin,Card,31000
+Washing Machine,Whirlpool,COD,61000
+Headphones,Apple,Net Banking,19000
+Tablet,Honor,Net Banking,22500
+Washing Machine,Godrej,Card,46500
+Air Conditioner,Voltas,UPI,70500
+Headphones,Sennheiser,Card,10500
+Air Conditioner,Haier,Net Banking,69500
+Mobile,OnePlus,UPI,58500
+Air Conditioner,Voltas,UPI,50000
+Smartwatch,Apple,Net Banking,16500
+Laptop,Samsung,Net Banking,152500
+Refrigerator,Panasonic,EMI,69500
+Laptop,Acer,UPI,76000
+Printer,Canon,Card,32000
+Refrigerator,Haier,Card,80000
+Washing Machine,Haier,EMI,17500
+Smartwatch,Fitbit,UPI,9000
+Camera,Panasonic,Wallet,119000
+Printer,Lexmark,COD,35000
+Mobile,Vivo,Card,86000
+TV,Panasonic,COD,122500
+Speaker,JBL,Card,19000
+Headphones,Sennheiser,Card,27500
+Air Conditioner,Daikin,UPI,66500
+Headphones,Bose,COD,26000
+Speaker,Ultimate Ears,UPI,11000
+Laptop,Lenovo,COD,152500
+Printer,Xerox,Card,26000
+Mobile,Vivo,EMI,89000
+Printer,Ricoh,UPI,33000
+TV,Samsung,COD,121500
+Laptop,Acer,UPI,54000
+Speaker,boAt,Card,20000
+Printer,Lexmark,UPI,35500
+Headphones,JBL,COD,18000
+TV,Mi,UPI,165000
+Camera,GoPro,UPI,34000
+TV,Samsung,COD,48500
+Speaker,Ultimate Ears,Net Banking,12500
+Speaker,Sony,UPI,26500
+Mobile,Apple,Card,101000
+Printer,Brother,Net Banking,7500
+Tablet,Huawei,EMI,52500
+Air Conditioner,Samsung,UPI,74000
+Tablet,Apple,Card,24500
+Speaker,Harman,Card,15500
+Refrigerator,Haier,Card,92500
+TV,LG,UPI,199500
+TV,OnePlus,COD,172000
+Tablet,Samsung,Card,26000
+Washing Machine,Haier,Card,23000
+Speaker,Bose,UPI,3000
+Air Conditioner,LG,Card,30500
+Washing Machine,Panasonic,EMI,68500
+Laptop,Asus,Card,125500
+Tablet,Apple,Card,18500
+Air Conditioner,LG,Net Banking,90500
+Tablet,Honor,UPI,28500
+Headphones,Bose,Net Banking,14000
+Washing Machine,Haier,Net Banking,44500
+Headphones,boAt,UPI,21000
+Tablet,Xiaomi,UPI,35500
+Printer,Samsung,Wallet,16000
+Mobile,Vivo,Card,93500
+Tablet,Realme,UPI,51000
+Refrigerator,Whirlpool,UPI,99000
+Headphones,Sony,UPI,32500
+Headphones,Skullcandy,COD,16000
+Smartwatch,Samsung,Card,46500
+Smartwatch,Fossil,COD,12500
+Headphones,Bose,Wallet,23000
+TV,Hisense,UPI,66000
+Refrigerator,Godrej,UPI,50000
+Tablet,Honor,UPI,83500
+Washing Machine,Bosch,EMI,56000
+Printer,Lexmark,Net Banking,25500
+Mobile,Realme,Card,64000
+Laptop,Asus,COD,38000
+Washing Machine,Whirlpool,Card,23000
+Mobile,Xiaomi,COD,39500
+Printer,Samsung,EMI,21500
+Speaker,Ultimate Ears,COD,25500
+TV,Mi,Net Banking,181000
+Printer,HP,Wallet,17000
+Laptop,Lenovo,Cheque,134000
+Smartwatch,boAt,UPI,14500
+TV,Mi,UPI,56500
+Smartwatch,Noise,EMI,44000
+Smartwatch,Fossil,Wallet,41500
+Air Conditioner,Haier,UPI,31000
+Air Conditioner,Hitachi,Net Banking,96500
+Refrigerator,Whirlpool,Card,100000
+Speaker,Philips,Wallet,6500
+Printer,Brother,Card,32500
+Tablet,Xiaomi,UPI,28000
+Washing Machine,Whirlpool,EMI,76500
+Washing Machine,Bosch,Card,72000
+Smartwatch,Fossil,UPI,27000
+Washing Machine,Whirlpool,UPI,14500
+Printer,Xerox,Net Banking,12500
+Mobile,Apple,Card,114000
+Tablet,Apple,Cheque,74500
+Tablet,Lenovo,UPI,54000
+Headphones,Skullcandy,UPI,20500
+Refrigerator,Godrej,UPI,76000
+Headphones,Apple,Card,31500
+Smartwatch,Samsung,Card,15500
+Laptop,Samsung,COD,182000
+Camera,Olympus,UPI,14000
+Refrigerator,Whirlpool,Card,118500
+Mobile,Oppo,Cheque,59500
+TV,Panasonic,Card,58500
+TV,LG,Net Banking,56500
+Smartwatch,Noise,EMI,10000
+Tablet,Huawei,Wallet,55500
+Tablet,Samsung,UPI,65000
+Printer,HP,EMI,18500
+Camera,Leica,COD,184000
+Air Conditioner,Voltas,COD,28000
+Speaker,Marshall,Card,5000
+Camera,Panasonic,Net Banking,134500
+Refrigerator,Panasonic,UPI,12000
+Air Conditioner,Daikin,Card,47000
+Headphones,Jabra,Net Banking,14500
+Speaker,Harman,Card,20500
+Laptop,Lenovo,Card,170000
+Camera,Sony,UPI,54000
+Speaker,Sony,UPI,7000
+Washing Machine,IFB,UPI,44500
+Refrigerator,Whirlpool,UPI,56500
+Air Conditioner,Haier,EMI,80500
+Laptop,Dell,COD,177000
+Headphones,Apple,UPI,29000
+Mobile,Oppo,Card,116000
+Smartwatch,Samsung,Wallet,2500
+Headphones,JBL,UPI,18500
+Refrigerator,Godrej,COD,40000
+Washing Machine,LG,Card,40000
+Speaker,JBL,EMI,6500
+Printer,Lexmark,COD,24500
+TV,Panasonic,UPI,185500
+Mobile,Oppo,Card,86000
+Camera,GoPro,UPI,100000
+Air Conditioner,Haier,EMI,27500
+Mobile,Xiaomi,Card,61000
+Refrigerator,Voltas,UPI,27000
+Speaker,Bose,COD,28500
+Smartwatch,Fossil,UPI,48000
+Tablet,Lenovo,Card,23000
+TV,Hisense,UPI,160000
+Mobile,Oppo,UPI,114500
+Mobile,Samsung,EMI,109000
+Laptop,Asus,Cheque,188500
+Smartwatch,Apple,COD,44500
+Printer,Lexmark,COD,11000
+Camera,Nikon,UPI,130000
+Speaker,Bose,UPI,27500
+Laptop,MSI,Cheque,106000
+Smartwatch,Fitbit,Card,29000
+Washing Machine,LG,Card,13000
+Air Conditioner,Carrier,COD,47500
+Air Conditioner,Carrier,UPI,65500
+Washing Machine,Bosch,COD,77500
+Mobile,Xiaomi,EMI,48500
+Smartwatch,Garmin,EMI,18500
+Headphones,boAt,Net Banking,3500
+Speaker,Bose,Card,1000
+Speaker,boAt,Card,3500
+Speaker,Ultimate Ears,EMI,25000
+Printer,Epson,UPI,18000
+TV,Hisense,Wallet,55500
+Mobile,Vivo,UPI,92000
+Headphones,Sennheiser,COD,8500
+Camera,Canon,Card,68000
+Printer,Ricoh,EMI,7000
+Smartwatch,Samsung,COD,27500
+Headphones,Skullcandy,EMI,34000
+Printer,Canon,UPI,21000
+Speaker,boAt,Card,17000
+Tablet,Huawei,EMI,63500
+Headphones,Jabra,UPI,28500
+Smartwatch,Garmin,Card,31500
+Smartwatch,Garmin,UPI,12500
+Tablet,Xiaomi,UPI,31500
+TV,LG,UPI,85500
+Air Conditioner,Haier,Card,43000
+Mobile,Nokia,UPI,32500
+Refrigerator,Panasonic,Cheque,86500
+Washing Machine,Haier,Net Banking,43000
+Smartwatch,Fossil,UPI,14500
+Refrigerator,Whirlpool,Net Banking,74000
+Printer,Samsung,UPI,25500
+Headphones,Sony,UPI,29000
+Mobile,Oppo,UPI,111500
+Camera,Olympus,UPI,107500
+Speaker,Sony,Net Banking,29000
+Laptop,Acer,Net Banking,166000
+Smartwatch,Fossil,Card,16500
+Tablet,Xiaomi,Card,82000
+Air Conditioner,Voltas,Wallet,78000
+Tablet,OnePlus,Cheque,49500
+Headphones,Sennheiser,UPI,16000
+TV,Hisense,UPI,204000
+Speaker,Ultimate Ears,COD,3500
+Refrigerator,Haier,Card,71500
+Printer,Canon,Card,17500
+Laptop,Dell,COD,131500
+Tablet,Huawei,Card,37500
+Camera,Fujifilm,Wallet,137000
+Smartwatch,Amazfit,EMI,12500
+Camera,Nikon,COD,121500
+Smartwatch,Noise,COD,20000
+Washing Machine,Samsung,Card,40500
+Refrigerator,Haier,Card,38500
+Tablet,Samsung,Wallet,60500
+Mobile,Xiaomi,UPI,71000
+Mobile,OnePlus,COD,80500
+Smartwatch,boAt,UPI,10500
+Printer,Lexmark,Card,32000
+TV,TCL,EMI,24000
+Washing Machine,Whirlpool,COD,26000
+Mobile,Realme,Net Banking,9500
+Washing Machine,IFB,Net Banking,44000
+Air Conditioner,Samsung,Card,69500
+Camera,Fujifilm,UPI,108500
+Camera,Leica,COD,73500
+Speaker,Sony,Net Banking,26000
+Refrigerator,Panasonic,EMI,74000
+Headphones,Jabra,Card,5500
+Air Conditioner,Hitachi,EMI,48500
+Laptop,Dell,Wallet,58000
+Washing Machine,Whirlpool,UPI,9000
+Printer,Epson,Cheque,8500
+Speaker,Philips,Card,10000
+Printer,HP,Net Banking,32000
+Air Conditioner,Daikin,Net Banking,91500
+Camera,Leica,Net Banking,183500
+Laptop,Apple,Card,199000
+Tablet,OnePlus,UPI,82500
+TV,TCL,EMI,24500
+Headphones,Sennheiser,Card,26500
+Washing Machine,Samsung,Card,24000
+Speaker,Ultimate Ears,UPI,26000
+Camera,Nikon,EMI,96000
+Air Conditioner,Haier,COD,90500
+Camera,Leica,UPI,144000
+Air Conditioner,Daikin,Card,98000
+TV,Hisense,Card,131000
+Tablet,Huawei,UPI,60000
+Smartwatch,Garmin,UPI,42500
+TV,Sony,COD,78500
+Washing Machine,Bosch,EMI,14000
+Refrigerator,Haier,Card,71000
+Laptop,Samsung,COD,59500
+Printer,Brother,UPI,11000
+Laptop,Samsung,Cheque,163500
+Smartwatch,Samsung,Card,36500
+Air Conditioner,Daikin,Card,51000
+Smartwatch,Fitbit,UPI,45000
+Camera,GoPro,Card,199500
+Headphones,Sony,Card,500
+Smartwatch,boAt,Card,19500
+Printer,Ricoh,UPI,30000
+Tablet,Samsung,COD,75500
+Refrigerator,Godrej,Cheque,31500
+Headphones,Jabra,UPI,30000
+Mobile,Oppo,Net Banking,110500
+Mobile,Vivo,UPI,28000
+Mobile,Oppo,Net Banking,18000
+Camera,GoPro,Net Banking,151500
+Washing Machine,Panasonic,UPI,34000
+TV,Panasonic,Card,196500
+Speaker,Philips,Card,13000
+Headphones,Bose,UPI,1500
+Washing Machine,Haier,Card,47000
+Laptop,Apple,EMI,73500
+Headphones,Apple,Card,11000
+Headphones,Bose,UPI,28500
+Headphones,JBL,Wallet,33000
+Tablet,OnePlus,Card,36000
+TV,OnePlus,UPI,23000
+Laptop,MSI,UPI,148500
+Washing Machine,Haier,EMI,21500
+TV,Sony,UPI,246000
+Tablet,OnePlus,UPI,27500
+Washing Machine,Godrej,Net Banking,43000
+Camera,Olympus,UPI,177500
+TV,Hisense,Cheque,145000
+Refrigerator,Panasonic,COD,47000
+Mobile,Oppo,UPI,8500
+Tablet,Realme,Net Banking,84500
+Printer,Ricoh,COD,11500
+TV,LG,Card,33000
+Washing Machine,Godrej,Card,40500
+Mobile,Nokia,UPI,114500
+Washing Machine,Godrej,UPI,60500
+Mobile,OnePlus,COD,60000
+Camera,Panasonic,UPI,6500
+Tablet,Xiaomi,Card,61000
+Air Conditioner,Carrier,Wallet,46000
+Camera,Leica,Card,158000
+Smartwatch,Fitbit,UPI,36500
+Washing Machine,Bosch,EMI,73000
+Mobile,Realme,EMI,68000
+Laptop,Samsung,UPI,190500
+Camera,Fujifilm,Net Banking,172000
+Camera,Olympus,UPI,196500
+Tablet,OnePlus,Cheque,13000
+Tablet,Honor,UPI,65000
+Camera,Sony,Net Banking,58000
+Refrigerator,Bosch,UPI,98500
+Printer,Epson,Card,3500
+TV,Sony,UPI,197000
+Speaker,boAt,Card,5500
+Mobile,Xiaomi,UPI,12500
+Speaker,Marshall,Card,13500
+Camera,Canon,Net Banking,119000
+Mobile,Vivo,Card,43000
+Smartwatch,Fossil,Card,32000
+Camera,Panasonic,Net Banking,132500
+Washing Machine,Samsung,Card,18000
+Tablet,Apple,Net Banking,74500
+Smartwatch,Noise,Card,5500
+TV,OnePlus,Card,222500
+Headphones,boAt,Net Banking,30000
+Camera,Panasonic,UPI,27500
+Washing Machine,IFB,UPI,78500
+Air Conditioner,Samsung,Net Banking,45000
+Tablet,Realme,Wallet,80000
+Camera,Panasonic,Card,15500
+Headphones,Skullcandy,COD,23000
+Washing Machine,Whirlpool,UPI,59500
+Printer,Xerox,Card,16500
+Laptop,Acer,UPI,76000
+Mobile,Samsung,Card,57500
+Washing Machine,Haier,Card,11000
+Refrigerator,Whirlpool,Card,24000
+Tablet,Lenovo,UPI,35000
+Laptop,Acer,Card,189000
+Camera,Canon,UPI,108000
+Printer,Ricoh,UPI,7000
+Laptop,HP,UPI,97500
+Refrigerator,Whirlpool,EMI,56000
+TV,OnePlus,Card,117000
+Camera,Olympus,Wallet,86000
+Air Conditioner,LG,UPI,96000
+Mobile,Nokia,COD,24000
+Refrigerator,Samsung,COD,58500
+Tablet,OnePlus,UPI,87500
+Camera,Canon,Net Banking,167000
+Speaker,Sony,COD,8000
+Headphones,Sony,UPI,21000
+Printer,Epson,Net Banking,31500
+Air Conditioner,Voltas,UPI,27000
+Mobile,Realme,Wallet,119000
+Mobile,Vivo,COD,110000
+Headphones,Sennheiser,Cheque,11500
+Printer,Xerox,UPI,20000
+Printer,Ricoh,Card,16000
+Smartwatch,Fossil,UPI,3500
+Washing Machine,Samsung,UPI,28500
+TV,Hisense,Card,84500
+Headphones,JBL,Wallet,32500
+Air Conditioner,Samsung,Card,61500
+Washing Machine,IFB,COD,28000
+Printer,Xerox,Card,15000
+Smartwatch,Noise,UPI,36000
+Laptop,Asus,UPI,160000
+Mobile,Oppo,UPI,56000
+Headphones,Bose,Card,14000
+Smartwatch,Amazfit,UPI,52000
+Tablet,OnePlus,UPI,88000
+Tablet,Apple,Net Banking,59500
+Mobile,OnePlus,Cheque,11500
+Smartwatch,Apple,Card,19500
+TV,Panasonic,Net Banking,116000
+Refrigerator,Voltas,Card,45500
+Headphones,Jabra,UPI,9000
+Headphones,Apple,Net Banking,15500
+Laptop,Asus,UPI,159500
+Washing Machine,Whirlpool,Net Banking,39500
+Speaker,Philips,UPI,25000
+Smartwatch,Fossil,Card,16000
+Headphones,Sennheiser,Card,24000
+Smartwatch,Apple,UPI,30500
+Washing Machine,Haier,Net Banking,60500
+Headphones,boAt,UPI,27000
+Refrigerator,LG,UPI,31000
+Speaker,Philips,EMI,3000
+Laptop,HP,UPI,136500
+Headphones,Bose,Card,21000
+Washing Machine,Haier,Card,69000
+Mobile,Oppo,UPI,89000
+Mobile,Xiaomi,COD,25500
+Laptop,Dell,Net Banking,86000
+TV,LG,Card,103000
+Laptop,Asus,Wallet,35000
+Tablet,Honor,Card,20000
+Laptop,Samsung,Card,178000
+Tablet,OnePlus,Net Banking,35000
+Refrigerator,Godrej,COD,26000
+Laptop,Asus,Net Banking,146500
+Mobile,Vivo,UPI,56500
+Printer,Canon,COD,33000
+Speaker,Harman,UPI,24500
+Speaker,Sony,UPI,9000
+Refrigerator,Haier,UPI,18000
+Washing Machine,Godrej,UPI,8000
+Washing Machine,Whirlpool,Wallet,33000
+Laptop,Samsung,Card,156500
+Smartwatch,boAt,COD,41500
+Printer,Brother,UPI,3000
+Mobile,Realme,EMI,33000
+Refrigerator,Whirlpool,UPI,63500
+Printer,Canon,UPI,6500
+Air Conditioner,Hitachi,Net Banking,46500
+Headphones,Sony,UPI,29000
+Washing Machine,IFB,Net Banking,25000
+Smartwatch,Noise,Card,37000
+Smartwatch,Samsung,COD,6000
+Speaker,Philips,EMI,4000
+Air Conditioner,LG,Wallet,94500
+Tablet,Huawei,UPI,46500
+Air Conditioner,LG,UPI,30500
+Refrigerator,Panasonic,COD,83000
+TV,Samsung,Cheque,183000
+Laptop,Asus,COD,182500
+Headphones,JBL,Net Banking,30500
+Tablet,Apple,UPI,35500
+TV,OnePlus,Card,57000
+Laptop,Dell,UPI,90000
+Printer,Canon,Wallet,39000
+TV,LG,Net Banking,64500
+Air Conditioner,Blue Star,Card,56000
+Tablet,Honor,UPI,62000
+TV,OnePlus,UPI,46500
+Speaker,Bose,Card,16500
+Speaker,Philips,COD,4500
+Camera,Nikon,Card,79000
+Washing Machine,Haier,Card,41000
+Refrigerator,Haier,COD,117500
+Air Conditioner,Hitachi,UPI,47000
+Air Conditioner,Haier,Card,38000
+Camera,Leica,UPI,11500
+TV,Hisense,Net Banking,94000
+Mobile,Realme,UPI,100000
+Camera,Leica,UPI,34500
+Mobile,Apple,EMI,97500
+Washing Machine,Samsung,UPI,52500
+Camera,Panasonic,UPI,88500
+Printer,Epson,Card,3000
+Smartwatch,Fitbit,EMI,11000
+TV,Hisense,EMI,235500
+Refrigerator,Bosch,EMI,34000
+Refrigerator,Whirlpool,COD,107000
+TV,Panasonic,Card,208500
+Speaker,Harman,Wallet,5000
+Speaker,JBL,UPI,24500
+Headphones,Sony,UPI,7000
+Refrigerator,LG,COD,98500
+Printer,Samsung,UPI,36000
+Tablet,OnePlus,EMI,64500
+Washing Machine,Panasonic,COD,78000
+Refrigerator,Voltas,UPI,66500
+Smartwatch,Apple,UPI,52500
+Laptop,Acer,COD,49500
+Printer,Xerox,Cheque,9000
+Mobile,Xiaomi,EMI,85000
+Smartwatch,Noise,Card,48500
+TV,Hisense,Net Banking,83500
+Washing Machine,Whirlpool,Card,20000
+Mobile,Apple,UPI,57000
+Printer,Brother,UPI,21500
+Speaker,Marshall,Cheque,12500
+Smartwatch,Amazfit,Net Banking,11500
+Mobile,OnePlus,EMI,53000
+TV,Sony,UPI,160000
+Refrigerator,Haier,Card,78500
+Air Conditioner,Hitachi,UPI,98500
+Washing Machine,Bosch,UPI,58500
+Air Conditioner,Hitachi,Card,49500
+Refrigerator,Samsung,EMI,55500
+Printer,Ricoh,Card,7000
+Printer,Samsung,Card,9000
+Air Conditioner,Daikin,COD,58000
+Printer,Brother,UPI,21000
+Tablet,Xiaomi,UPI,16500
+Laptop,Dell,EMI,61000
+Smartwatch,Apple,EMI,10500
+Headphones,Sennheiser,Net Banking,21500
+Air Conditioner,Daikin,Card,73000
+Tablet,Apple,Card,13500
+Headphones,Jabra,UPI,9000
+Printer,Xerox,UPI,26500
+Washing Machine,LG,UPI,70500
+Printer,Brother,Net Banking,24000
+Air Conditioner,Voltas,EMI,85500
+Air Conditioner,Samsung,EMI,25000
+Headphones,Sennheiser,COD,21500
+Speaker,Sony,COD,3000
+Refrigerator,Samsung,EMI,81000
+Smartwatch,Noise,Card,21000
+Headphones,Sony,UPI,25500
+Mobile,Nokia,Card,64500
+Printer,Xerox,Card,5000
+Printer,Ricoh,Card,10500
+Printer,Xerox,EMI,6500
+Smartwatch,Amazfit,Net Banking,45500
+Camera,Leica,Card,130000
+Laptop,Dell,EMI,148000
+Headphones,Apple,UPI,10500
+Camera,Olympus,EMI,8500
